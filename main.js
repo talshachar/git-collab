@@ -60,7 +60,7 @@ gameWrapperUI.addEventListener('mousedown', function(e) {
 
 function gameOver(won, msg) {
     let color;
-    won === true ? color = 'green' : color = 'red';
+    won ? color = 'green' : color = 'red';
 
     guessInputUI.disabled = true;
     guessInputUI.style.borderColor = color;
