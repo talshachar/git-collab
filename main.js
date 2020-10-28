@@ -7,7 +7,7 @@
 
 */
 
-let min = 1,
+let min = 4,
     max = 10,
     winnigNum = getRandomNum(min, max),
     guessesLeft = 3;
